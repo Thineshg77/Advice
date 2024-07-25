@@ -1,7 +1,7 @@
 import {useState} from 'react'
 
 const Adviceapp = () => {
-    const [advice, setadvice] = useState("ONNAKKU ENNA ADVICE NU PAPOM AAH......");
+    const [advice, setadvice] = useState("");
     async function Getadvice(){
      const res=await fetch("https://api.adviceslip.com/advice");
      const data =await res.json();
@@ -9,7 +9,15 @@ const Adviceapp = () => {
     }
   return (
     <div>
-      <h1>{advice}</h1>
+      <nav>
+        <table>
+          <tbody>
+            <td><img src="./src/assets/icon.jpg" alt="" /></td>
+            <td><h1 className='head'>ADVICE!!!</h1></td>
+          </tbody>
+        </table>
+      </nav>
+      <h1 className='center'>{advice}</h1>
       <button onClick={Getadvice}>Get Advice</button>
     </div>
   )

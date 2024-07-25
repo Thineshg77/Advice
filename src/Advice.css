@@ -1,6 +1,6 @@
 *{
-    background-color: rgb(126, 248, 191);
-    margin-top: 100px;
+    background-color: rgb(1, 5, 3);
+    margin-top: 0px;
 
 }
 div{
@@ -9,15 +9,33 @@ div{
 }
 button{
     border-radius: 6px;
-    background-color: rgb(37, 8, 116);
-    color: white;
+    background-color: rgb(27, 248, 82);
+    color: rgb(10, 3, 3);
     font-weight: bold;
     padding: 5px;
     cursor: pointer;
+    box-shadow: 20px;
+    margin-top: 14%;
 
     
 }
-h1{
+.center{
     justify-content: center;
+    color: white;
+    margin-top: 13%;
     
+}
+.head{
+    color: rgb(221, 71, 12);
+    margin: 20px;
+    margin-bottom: 15%;
+    font-size: 30px;
+    
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
 }
