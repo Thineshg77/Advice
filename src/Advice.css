@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(126, 248, 191);
+    margin-top: 100px;
+
+}
+div{
+    text-align: center;
+    
+}
+button{
+    border-radius: 6px;
+    background-color: rgb(37, 8, 116);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+
+    
+}
+h1{
+    justify-content: center;
+    
+}
