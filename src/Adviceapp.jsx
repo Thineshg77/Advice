@@ -12,7 +12,7 @@ const Adviceapp = () => {
       <nav>
         <table>
           <tbody>
-            <td><img src="../src/assets/icon.jpg" alt="" /></td>
+            <td><img src="./src/assets/icon.jpg" alt="" /></td>
             <td><h1 className='head'>ADVICE!!!</h1></td>
           </tbody>
         </table>
