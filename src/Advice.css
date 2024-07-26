@@ -52,3 +52,6 @@ p{
     cursor: pointer;
     font-size: smaller;
 }
+nav{
+    margin-left: 40px;
+}
