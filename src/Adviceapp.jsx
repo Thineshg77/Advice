@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import profiles from './assets/icon.jpg'
 
 const Adviceapp = () => {
     const [advice, setadvice] = useState("");
@@ -12,13 +13,14 @@ const Adviceapp = () => {
       <nav>
         <table>
           <tbody>
-            <td><img src="./src/assets/q.jpg" alt="profile" /></td>
+            <td><img src={profiles} alt="" /></td>
             <td><h1 className='head'>ADVICE!!!</h1></td>
           </tbody>
         </table>
       </nav>
       <h1 className='center'>{advice}</h1>
       <button onClick={Getadvice}>Get Advice</button>
+      <p>&copy; Designed by THINESH</p>
     </div>
   )
 }
